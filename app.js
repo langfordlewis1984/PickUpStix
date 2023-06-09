@@ -1,8 +1,9 @@
 let userName = prompt ("Greetings fellow Picker! How should one refer to you?");
 console.log(userName);
 
-const welcomeMsg = alert ("Welcome " + userName + "! Let's get PICKIN!");
+const welcomeMsg = alert ("Welcome " + userName + "!\nLet's get PICKIN!");
 
+const moreInfo = alert ("But FIRST! \nWe are going to need some more sticky info, " + userName + "!");
 
 
 if (userName === "Rich") {
