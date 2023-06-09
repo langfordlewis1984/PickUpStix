@@ -32,7 +32,9 @@ function timeOfDay() {
         message = "afternoon";
     } else if (time < 24 && location === "england") {
         message = "Good Evenin'!";
-    }
+    } else {
+        message = "I don't seem to care what the time is or where you are in the end. Fuhgedabowdit!";
 
     return document.write(message);
+}
 }
